@@ -1,0 +1,157 @@
+<div class="g"><div class="in">
+  <div class="case-head">
+    <nav class="crumb" aria-label="Breadcrumb"><a href="index.html#work">Work</a> / The TBD story, chapter 1</nav>
+    <h1 class="title display" data-kinetic>Betfair<br><span class="lt">Rebuild.</span></h1>
+    <p class="lede">Replacing Betfair's Sportsbook app with one platform that design could finally improve, and that later carried Sky Bet and the Exchange.</p>
+    <dl class="facts meta">
+      <div><dt>Role</dt><dd>Principal Designer</dd></div>
+      <div><dt>Team</dt><dd>11 designers, 6 product managers, 5 delivery managers</dd></div>
+      <div><dt>Platform</dt><dd>Betfair Sportsbook, web and native</dd></div>
+      <div><dt>Years</dt><dd>2020 to 2022</dd></div>
+    </dl>
+  </div>
+  <figure class="fig phone hero"><div class="frame"><img src="img/rebuild/hero-phone.webp" width="680" height="1388" alt="The Betfair Beta app in its dark visual language: a Liverpool v Chelsea event page with an Odds Boost for Salah and Mane to both score at 5.0, was 2.7, team form, and a Match Odds card switching between Exchange and Sportsbook, showing back and lay prices."></div><figcaption>The Rebuild Beta: one event page with an Odds Boost, and Exchange and Sportsbook prices side by side.</figcaption></figure>
+</div></div>
+
+<div class="g results"><div class="in">
+  <h2>What it led to</h2>
+  <ul class="stats">
+    <li><b>2022</b><span>The Betfair Destination (TBD) launched</span></li>
+    <li><b>9.4M</b><span>Sky Bet accounts later moved onto it, in Project Cactus</span></li>
+    <li><b>2</b><span>programmes built on it since: Cactus and Phoenix</span></li>
+  </ul>
+</div></div>
+
+<div class="g"><div class="in">
+  <section class="chapter">
+    <h2>Scroll <span class="lt">the real thing.</span></h2>
+    <div class="body side">
+      <div class="body">
+        <p>This is the Betfair home page on TBD in high fidelity, top to bottom. Scroll inside the phone to see it all: sports navigation, a safer gambling message, featured events, popular multiples, OddsBoosts, Bet Builders, today's football, and the safer gambling and licensing footer.</p>
+        <p>The header and the bottom bar stay fixed while the page scrolls, as they do in the app.</p>
+      </div>
+      <div class="device-wrap">
+        <div class="device">
+          <div class="screen">
+            <img src="img/rebuild/home/header.webp" width="750" height="208" alt="">
+            <div class="scroll" tabindex="0" role="region" aria-label="Betfair home page, scrollable">
+              <img src="img/rebuild/home/body.webp" width="750" height="12768" loading="lazy" alt="The full Betfair home page: sport icons, a Safer Gambling tools banner, Featured Events, Popular Racing Multiples, OddsBoosts, UK and Irish Racing, Football OddsBoosts, Popular Bet Builders, Today's Football with match odds, more sports, casino games, and a footer with safer gambling, licensing and policy links.">
+            </div>
+            <img src="img/rebuild/home/nav.webp" width="750" height="178" alt="">
+          </div>
+          <img class="bezel" src="img/rebuild/home/frame.webp" width="864" height="1704" alt="">
+        </div>
+        <p class="hint">Scroll inside the phone. With a keyboard, tab to it and use the arrow keys.</p>
+      </div>
+    </div>
+  </section>
+</div></div>
+
+<div class="g"><div class="in">
+  <section class="chapter">
+    <h2>The <span class="lt">problem.</span></h2>
+    <div class="body">
+      <p>Betfair's Sportsbook and Exchange were separate legacy apps, with little content management and almost no room to experiment. Design changes were slow to ship and hard to test with customers.</p>
+      <p>Rebuild replaced the Sportsbook app with The Betfair Destination, TBD: a single web and native platform that gave design one experience to improve. It was first meant to bring the Sportsbook and Exchange together in one product.</p>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <h2>Structure <span class="lt">first.</span></h2>
+    <div class="body">
+      <p>Before any screens, the new product needed a structure that worked for every sport. Global features, like the account, My Bets and search, sit beside the sports, and sports are grouped by how customers actually find a bet:</p>
+      <ul class="points">
+        <li><b>Competition-driven</b>, like football, cricket and tennis: sport, competition, event, market.</li>
+        <li><b>Meeting-driven</b>, like horse and greyhound racing: sport, meeting, market.</li>
+        <li><b>Event-driven</b> sports, which skip the competition level.</li>
+        <li><b>Virtual</b> sports, on their own.</li>
+      </ul>
+      <p>Navigation stayed flat: four tabs, Home, Browse, My Bets and Casino, the pattern Apple recommends for apps with several parallel journeys. Every journey starts one tap from the bottom bar, with fewer layers to reach content.</p>
+    </div>
+  </section>
+</div></div>
+<div class="g wide"><div class="in"><figure class="fig pad wire"><div class="frame"><img src="img/rebuild/sitemap.webp" width="2400" height="705" alt="Sitemap. Home connects to global features (account, My Bets, search and menu) on the left and sports on the right. Sports split into four categories: competition-driven (sport, competition, event, market), meeting-driven (sport, meeting, market), event-driven and virtual. An In-Play filter view sits alongside." loading="lazy"></div><figcaption>The sitemap: global features on one side, and sports grouped by how customers navigate them.</figcaption></figure>
+  <figure class="fig pad"><div class="frame"><img src="img/rebuild/bottom-nav.webp" width="1230" height="512" alt="Four Beta app screens, Home, Browse, a search for Liverpool, and an event page, each with an arrow pointing to its tab in a flat bottom bar: Home, Browse, My Bets, Casino." loading="lazy"></div><figcaption>Flat navigation: each tab is its own journey, one tap from anywhere.</figcaption></figure></div></div>
+
+<div class="g"><div class="in">
+  <section class="chapter">
+    <h2>Breaking the <span class="lt">industry pattern.</span></h2>
+    <div class="body">
+      <p>For Bet Builder, our Same Game Multi, the industry-standard flow had customers pick markets, then step through to odds, then open the bet slip. We assumed customers wanted that too.</p>
+      <p>Testing it against a simpler model showed the opposite: tap the odds you want, straight from the market, and build the bet in the bet slip, like any other multiple. Each new selection collapses the bet slip into a tip that shows the bet growing, such as "Build a £10 bet for returns of £360.00".</p>
+      <p>We chose the simpler route, even though it meant more engineering work, because it took friction out of placing a bet and made it much faster.</p>
+    </div>
+  </section>
+</div></div>
+<div class="g wide"><div class="in"><figure class="fig pad wire"><div class="frame"><img src="img/rebuild/bet-builder.webp" width="2400" height="744" alt="Bet Builder wireframes, Liverpool v Norwich. The customer taps 13/5, then 13/2, directly on the market. A tip at the bottom grows from Build a £10 bet for returns of £360.00 to £1,050.00 after five selections. The bet slip then shows a 5 Fold Bet Builder, with the selections in an expandable list." loading="lazy"></div><figcaption>Adding to Bet Builder: tap the odds, watch the bet build, then review it in the bet slip.</figcaption></figure></div></div>
+
+<div class="g"><div class="in">
+  <section class="chapter">
+    <h2>One product, <span class="lt">or two?</span></h2>
+    <div class="body">
+      <p>Rebuild was meant to bring the Sportsbook and Exchange together. That raised a question customers shouldn't have to think about: which product am I in? Most people want the one they came for, as fast as possible. Switching is a second step.</p>
+      <p>I explored six ways to let customers set their product preference, and weighed each against how often people would really switch:</p>
+      <ul class="points">
+        <li><b>A settings toggle.</b> The most expected place to set content preferences.</li>
+        <li><b>A content module.</b> A visual prompt tied to a customer goal, such as placing multiples.</li>
+        <li><b>Onboarding.</b> Choose at first login, and learn where to change it later.</li>
+        <li><b>Smart detection.</b> Offer to switch when someone keeps toggling to the other product.</li>
+        <li><b>A hidden gesture.</b> Not recommended: hard to discover.</li>
+        <li><b>An always-visible switch.</b> Not recommended: another decision on every page, with no data to show people need it.</li>
+      </ul>
+      <p>The saved default-product setting outlived Rebuild. It's still part of onboarding in <a href="index.html#work">Phoenix</a>.</p>
+    </div>
+  </section>
+</div></div>
+<div class="g wide"><div class="in"><figure class="fig pad wire"><div class="frame"><img src="img/rebuild/product-preference.webp" width="2400" height="699" alt="Wireframes for a settings toggle. The customer opens the account menu, goes to Settings, and chooses content preferences: Exchange, Sportsbook, Games or a combination, plus default market, odds format and event layout." loading="lazy"></div><figcaption>Option one, the settings toggle: content preferences for Sportsbook, Exchange, Gaming and combinations.</figcaption></figure></div></div>
+
+<div class="g"><div class="in">
+  <section class="chapter">
+    <h2>Bet without <span class="lt">losing your place.</span></h2>
+    <div class="body">
+      <p>On the Exchange, prices and liquidity move constantly, and a bet slip that covers the market hides exactly what customers need to see. The Exchange bet slip opens inline, attached to the price button, so the rest of the market stays in view while you bet.</p>
+      <p>In research with customers in November 2020, people found it:</p>
+      <ul class="points">
+        <li>Showed odds movement, liquidity and the rest of the market more clearly</li>
+        <li>Made it clearer which selection they were betting on</li>
+        <li>Made it easier to edit an unmatched bet</li>
+        <li>Felt faster to place a bet</li>
+        <li>Made unmatched bets by mistake less likely</li>
+      </ul>
+      <p>The inline bet slip outlived Rebuild too: it's the one Phoenix kept.</p>
+    </div>
+  </section>
+</div></div>
+<div class="g wide"><div class="in"><figure class="fig screens"><div class="frame"><img src="img/rebuild/inline-betslip.webp" width="1920" height="1067" alt="Three Exchange screens for Man Utd v Leicester, Match Odds. First, a back bet at 1.15 opens inline under the price with odds, stake keypad, Create Multiple and Place Bet. Second, a confirmation state with Confirm Bet, profit £5.40. Third, a matched bet receipt, odds 1.15, stake £10, profit £5.40, with the rest of the market still visible below." loading="lazy"></div><figcaption>The inline bet slip: open, confirm, matched. The market never leaves the screen.</figcaption></figure></div></div>
+
+<div class="g"><div class="in">
+  <section class="chapter">
+    <h2>Fix what <span class="lt">research finds.</span></h2>
+    <div class="body">
+      <p>Research in December 2020 showed search worked: it was easy to find and use, searching for a team worked well, and one participant found the markets they wanted by typing "BTTS".</p>
+      <p>But the keyboard covered the results while people typed, and a search for "Today's racing" returned nothing. The proposed fix kept results visible above the keyboard, grouped by sport and competition.</p>
+    </div>
+  </section>
+</div></div>
+<div class="g wide"><div class="in"><figure class="fig screens"><div class="frame"><img src="img/rebuild/search.webp" width="1920" height="1067" alt="Three Browse screens. First, the current Browse page with a search field and sports list. Second, the current search with the keyboard covering most of the screen. Third, the proposed search results for Man, listing football events above the keyboard." loading="lazy"></div><figcaption>Search: the current Browse page, the keyboard covering results, and the proposed results view.</figcaption></figure></div></div>
+
+<div class="g"><div class="in">
+  <section class="chapter">
+    <h2>Two kinds of prototype, <span class="lt">two jobs.</span></h2>
+    <div class="body">
+      <p>I coached the team to separate them. Dynamic prototypes went in front of customers, often several interaction options side by side, and we kept the ones that scored best for ease of use, accessibility and conversion.</p>
+      <p>Static prototypes became the documentation: annotated hand-off notes and specs for engineers and the design system team. Every state was drawn out, down to a closed market, a changed price or a stake over the limit, so nothing was left for engineers to guess.</p>
+    </div>
+  </section>
+</div></div>
+<div class="g wide"><div class="in"><figure class="fig pad wire"><div class="frame"><img src="img/rebuild/betslip-states.webp" width="2400" height="539" alt="Single bet slip wireframes showing eight Sportsbook alert states: the default bet slip, market closed, market suspended, odds changed, bet placement error, minimum and maximum stake, maximum stake and loss limit. Notes call out disabled buttons, no quick stakes and a disabled stake field." loading="lazy"></div><figcaption>Documentation, not decoration: every bet slip alert, with notes on what changes in each state.</figcaption></figure></div></div>
+
+<div class="g"><div class="in">
+  <section class="chapter">
+    <h2>Designs that <span class="lt">explain themselves.</span></h2>
+    <div class="body">
+      <p>Our files were hard to navigate, and every design needed a designer in the room to explain it. I helped rebuild how we worked: clearer file organisation, standardised assets and shared ceremonies, so stakeholders could understand a design without a walkthrough, and user tests ran on something closer to the real product.</p>
+      <p>TBD's bold, colourful visual language came out of the same spirit. It was built collaboratively, through design workshops across the team.</p>
+    </div>
+  </section>
+</div></div>

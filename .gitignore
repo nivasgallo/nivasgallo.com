@@ -1,0 +1,12 @@
+# Confidential or working material: never commit
+private/
+import/
+content/
+scripts/
+demos/
+directions/
+# Build outputs (dist is built by CI; site/ holds local previews)
+dist/
+site/
+node_modules/
+.DS_Store
