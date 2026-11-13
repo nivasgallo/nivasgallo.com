@@ -14,7 +14,7 @@ Portfolio of Nivas Gallo, Lead Product Designer.
 ```
 python3 src/build.py --deploy   # writes the static site to dist/
 ```
-Every push to `main` builds `dist/` and deploys it (see `.github/workflows/deploy.yml`).
+Every push to `main` builds `dist/` and deploys it to GitHub Pages (see `.github/workflows/deploy.yml`).
 
 ## Accessibility
 Targets WCAG 2.2 AAA: 7:1 text contrast in both themes, 48px targets, skip link, landmarks, reduced-motion support.
